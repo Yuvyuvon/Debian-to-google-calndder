@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 
 const CREDENTIALS_PATH = path.join(__dirname, 'credentials.json');
 const TOKEN_PATH = path.join(__dirname, 'token.json');
-const OBSIDIAN_VAULT_PATH = 'C:\\Users\\user\\Documents\\My self\\Calendar';
+const OBSIDIAN_VAULT_PATH = '/home/ubuntu/ObsidianVault';
 
 const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
 
